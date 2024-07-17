@@ -22,7 +22,7 @@ no longer available in the library.</p>
 <p>Below are the examples of user interface in this system</p>
 
 <div align="center">
-  <img alt="Demo" src=".\web\img\mainpage.png" /><br/>
-  <img alt="Demo" src=".\web\img\login page.png" /><br/>
-  <img alt="Demo" src=".\web\img\dashboard.png" />
+  <img alt="mainpage" src="...\web\img\mainpage.png" /><br/>
+  <img alt="login" src="...\web\img\login page.png" /><br/>
+  <img alt="dashboard" src="...\web\img\dashboard.png" />
 </div>
