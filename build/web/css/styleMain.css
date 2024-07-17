@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+.banner-area{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(".../img/libraryImg.jpg");
+    background-position: center;
+    -webkit-background-size: cover;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    color: #fff;
+}
+
+nav a{
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: poppins;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+}
+
+nav a:hover{
+    padding: 9px;
+    border-radius: 5px;
+/*    background-image: linear-gradient(to left, #00e0a5, #00cddd, #00b3ff, #008aff, #8935fd);*/
+    background: #ffbf00;
+    color: #fff;
+}
+
+.banner-area h2{
+    user-select: none;
+    font-family: Bahnschrift;
+    font-size: 50px;
+    margin: 0 0 25px;
+    animation: animate 2s 1;
+}
+
+span{
+    color: #ffbf00; 
+}
+
+@keyframes animate{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

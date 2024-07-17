@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 29, 2023, 11:34:11 PM
+    Author     : fitri
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    height: 450px;
+    width: 400px; /* 300px */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    background-image: url(".../img/profile2.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: relative;
+    top: 200px;
+    margin-left: 220px; /* 170px */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: rotate(-20deg);
+}
+
+.shape {
+    height: 250px;
+    width: 500px; /* 400px */
+    background: #314755;  
+    background: -webkit-linear-gradient(to right, #26a0da, #314755);  
+    background: linear-gradient(to right, #26a0da, #314755); 
+    margin-left: -20px;
+    position: relative;
+    top: -80px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: rotate(25deg);
+}
+
+table tr td{
+    text-align: left;
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.title {
+    color: rgb(105, 100, 109);
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icons i {
+    margin-left: 10px;
+    font-size: 20px;
+    transition: 0.3s;
+    color: rgb(40, 163, 194);
+    ;
+}
+
+.icons i:hover {
+    transform: scale(1.1);
+    color: rgb(18, 192, 235);
+}

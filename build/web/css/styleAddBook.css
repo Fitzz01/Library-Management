@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 21, 2023, 11:46:12 AM
+    Author     : fitri
+*/
+
+body{
+    padding: 3% 30%;
+}
+a{
+    color: #ffbf00;
+    text-decoration: none;
+}
+a:hover{
+    color: #A435F7;
+}
+.container {
+    background: white;
+    padding: 0 50px;
+    position: relative;
+    display: grid;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
