@@ -1,5 +1,3 @@
-# Library-Management
-
 <h2 align="center">
   Library Management System
 </h2>
