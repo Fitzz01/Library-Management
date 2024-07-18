@@ -14,5 +14,5 @@ no longer available in the library.</p><br/>
 
 <p>There are two types of users for The Library Management System - Normal user & Administrator</p>
 
-<p><b>For the examples of user interface in this system, can refer to master branch</b>b</p>
+<p><b>For the examples of user interface in this system, can refer readme.md in master branch</b>b</p>
 
